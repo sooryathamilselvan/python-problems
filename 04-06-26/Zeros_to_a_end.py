@@ -5,8 +5,5 @@ for zeros in value:
         result.append(zeros)
 zero_count=value.count(0)
 for i in range(zero_count):
-    result.append(i)
-
-
-
+    result.append(0)
 print (result)
