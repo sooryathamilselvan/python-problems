@@ -7,5 +7,4 @@ for i in arr:
         largest=i
     elif i>second_largest and i !=largest:
         second_largest=i
-
 print(second_largest)
