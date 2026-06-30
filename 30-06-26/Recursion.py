@@ -1,9 +1,7 @@
-def greet():
-    count=0
+def greet(count=0):
     if count == 4:
         return
     print("Soorya")
-    count+=1
-    greet()
+    greet(count + 1)
 if __name__ == "__main__":
     greet()

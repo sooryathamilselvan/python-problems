@@ -6,3 +6,4 @@ def head(n):
     print(n)
 
 head(5)
+#In head recursion, the recursive call is made before any processing.
