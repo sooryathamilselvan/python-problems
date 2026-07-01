@@ -9,4 +9,3 @@ def selectionsort(num):
     return num
 text = [1, 2, 5, 4, 7, 5]
 print(selectionsort(text))
-
