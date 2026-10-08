@@ -1,0 +1,8 @@
+numbers = [4, 7, 2, 9, 7, 5, 2, 4]
+unique = []
+count=0
+for i in numbers:
+    if i not in unique:
+        unique.append(i)
+        count+=1
+print(count)
